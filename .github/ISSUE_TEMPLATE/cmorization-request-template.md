@@ -50,3 +50,8 @@ assignees: ''
 #### Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
 
 #### Information on aerosol emissions and GHG concentrations, should be added to metdata
+
+## Progress
+[] CMORization of atmosphere / land done
+[] CMORization of ocean / ice done
+[] published to ESGF
