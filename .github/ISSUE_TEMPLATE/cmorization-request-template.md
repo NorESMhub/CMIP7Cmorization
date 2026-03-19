@@ -52,6 +52,6 @@ assignees: ''
 #### Information on aerosol emissions and GHG concentrations, should be added to metdata
 
 ## Progress
-- [] CMORization of atmosphere / land done
-- [] CMORization of ocean / ice done
-- [] published to ESGF
+- [ ] CMORization of atmosphere / land done
+- [ ] CMORization of ocean / ice done
+- [ ] published to ESGF
