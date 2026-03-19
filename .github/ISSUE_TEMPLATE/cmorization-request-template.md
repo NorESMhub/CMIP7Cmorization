@@ -9,38 +9,44 @@ assignees: ''
 
 ## Mandatory information:
 
-### Full path to the case(s) of the experiment on NIRD (e.g. /projects/NS2345K/oyvinds/cases)
+#### Full path to the case(s) of the experiment on NIRD 
+(e.g. /projects/NS2345K/oyvinds/cases)
 
-### experiment_id (e.g. LRTAP-low)
+#### experiment_id 
+(e.g. LRTAP-low)
 
-### model_id (e.g. NorESM2-LM)
+#### model_id 
+(e.g. NorESM2-LM)
 
-### CASENAME(s) and years to be CMORized (e.g. NSSP245_LRTAP-lowdiet_f19_tn14_Forces_20231031, 2015-2050)
-Optional information
+#### CASENAME(s) and years to be CMORized 
+(e.g. NSSP245_LRTAP-lowdiet_f19_tn14_Forces_20231031, 2015-2050)
 
-(additional information, if the experiment is branched/hybrid restart from previous parent experiment; you may find more information relevant to the experiment_id here: https://github.com/NorESMhub/noresm2cmor/blob/master/tables/CMIP6_CV.json)
+### Optional information
 
-parent_experiment_id
-LRTAP-base
+#### (additional information, if the experiment is branched/hybrid restart from previous parent experiment; you may find more information relevant to the experiment_id here: https://github.com/NorESMhub/noresm2cmor/blob/master/tables/CMIP6_CV.json)
 
-parent_experiment_rip
-r1i1p4f5
+#### parent_experiment_id 
+(e.g. LRTAP-base)
 
-branch_method
-'Branch-restart from year 2015-01-01 of LRTAP-base',
+#### parent_experiment_rip 
+(e.g. r1i1p4f5)
 
-other information
+#### branch_method
+(e.g. 'Branch-restart from year 2015-01-01 of LRTAP-base',)
 
-experiment_rip
-r1i1p4f5
+### other information
 
-parent case path
-/projects/NS2345K/oyvinds/cases
+#### experiment_rip
+(e.g. r1i1p4f5)
 
-case
-NHIST_f19_tn14_Forces_base_20231006
+#### parent case path
+(e.g. /projects/NS2345K/oyvinds/cases)
 
-Physics information:
-Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
+#### case
+(e.g. NHIST_f19_tn14_Forces_base_20231006)
 
-Information on aerosol emissions and GHG concentrations, should be added to metdata
+####Physics information:
+
+#### Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
+
+#### Information on aerosol emissions and GHG concentrations, should be added to metdata
