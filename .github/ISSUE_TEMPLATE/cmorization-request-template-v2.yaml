@@ -56,14 +56,59 @@ body:
         you may find more information relevant to the experiment_id here:
         https://github.com/NorESMhub/noresm2cmor/blob/master/tables/CMIP6_CV.json
       
-  # - type: input
-  #   id: contact
-  #   attributes:
-  #     label: Contact Details
-  #     description: How can we get in touch with you if we need more info?
-  #     placeholder: ex. email@example.com
-  #   validations:
-  #     required: false
+  - type: input
+    id: parent_experiment_id
+    attributes:
+      label: parent_experiment_id
+      description: (e.g. LRTAP-base)
+    validations:
+      required: false
+      
+  - type: input
+    id: parent_experiment_rip
+    attributes:
+      label: parent_experiment_rip
+      description: (e.g. r1i1p4f5)
+    validations:
+      required: false
+      
+  - type: input
+    id: branch_method
+    attributes:
+      label: branch_method
+      description: (e.g. 'Branch-restart from year 2015-01-01 of LRTAP-base',)
+    validations:
+      required: false
+  
+  - type: markdown
+    attributes:
+      value: "### other information"    
+      
+  - type: input
+    id: experiment_rip
+    attributes:
+      label: experiment_rip
+      description: (e.g. r1i1p4f5)
+    validations:
+      required: false
+      
+  - type: input
+    id: parent case path
+    attributes:
+      label: parent case path
+      description: (e.g. /projects/NS2345K/oyvinds/cases)
+    validations:
+      required: false
+      
+  - type: input
+    id: case
+    attributes:
+      label: case
+      description: (e.g. NHIST_f19_tn14_Forces_base_20231006)
+    validations:
+      required: false
+      
+
 #   - type: textarea
 #     id: optional_information
 #     attributes:
