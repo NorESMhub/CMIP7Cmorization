@@ -23,7 +23,7 @@ body:
     id: experiment_id
     attributes:
       label: experiment_id
-      description: experiment_id
+      # description: experiment_id
       placeholder: (e.g. LRTAP-low)
     validations:
       required: true
@@ -32,7 +32,7 @@ body:
     id: mopdel_id
     attributes:
       label: model_id
-      description: model_id
+      # description: model_id
       placeholder: (e.g. NorESM2-LM)
     validations:
       required: true
@@ -45,6 +45,15 @@ body:
       placeholder: (e.g. NSSP245_LRTAP-lowdiet_f19_tn14_Forces_20231031, 2015-2050)
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## Optional information"
+  - type: markdown
+    attributes:
+      value: "| (additional information, if the experiment is branched/hybrid restart from previous parent experiment; 
+      you may find more information relevant to the experiment_id here: 
+      https://github.com/NorESMhub/noresm2cmor/blob/master/tables/CMIP6_CV.json)"
       
   # - type: input
   #   id: contact
