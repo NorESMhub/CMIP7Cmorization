@@ -93,7 +93,7 @@ body:
       required: false
       
   - type: input
-    id: parent case path
+    id: parent_case_path
     attributes:
       label: parent case path
       description: (e.g. /projects/NS2345K/oyvinds/cases)
