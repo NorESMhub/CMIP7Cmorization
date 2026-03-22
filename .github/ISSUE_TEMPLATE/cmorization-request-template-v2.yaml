@@ -108,12 +108,12 @@ body:
     validations:
       required: false
       
-    - type: textarea
-      id: pysics_info
-      attributes:
-        label: Physics information
-        description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-        render: shell
+  - type: textarea
+    id: pysics_info
+    attributes:
+      label: Physics information
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
       
 
 
