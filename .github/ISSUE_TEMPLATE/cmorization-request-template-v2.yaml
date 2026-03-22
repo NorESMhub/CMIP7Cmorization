@@ -112,45 +112,19 @@ body:
     id: pysics_info
     attributes:
       label: Physics information
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: e.g. Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
       render: shell
       
   - type: markdown
     attributes:
       value: "### Progress"
-  - type: markdown
-    attributes:
-      value: "- [ ] CMORization of atmosphere / land done"
-      # value: "- [ ] CMORization of ocean / ice done"
-      # value: "- [ ] published to ESGF"
-
   - type: checkboxes
-    id: cmor_ocean
+    id: cmor_status
     attributes:
       label: CMORization status
-      description: To be filled by the CMORizxation team
+      description: To be filled by the CMORization team; create sub issues by clicking on the three dots to the right if needed
       options:
         - label: CMORization of atmosphere / land done
         - label: CMORization of ocean / ice done
         - label: published to ESGF
 
-# ####Physics information:
-# Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
-# Information on aerosol emissions and GHG concentrations, should be added to metdata"
-  #   validations:
-  #     required: false
-  # - type: checkboxes
-  #   id: terms
-  #   attributes:
-  #     label: Code of Conduct
-  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
-  #     options:
-  #       - label: I agree to follow this project's Code of Conduct
-  #         required: true
-  # - type: upload
-  #   id: screenshots
-  #   attributes:
-  #     label: Upload screenshots
-  #     description: If applicable, add screenshots to help explain your problem.
-  #   validations:
-  #     required: false
