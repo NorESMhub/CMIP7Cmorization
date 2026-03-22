@@ -23,8 +23,8 @@ body:
     id: experiment_id
     attributes:
       label: experiment_id
-      # description: experiment_id
-      placeholder: (e.g. LRTAP-low)
+      description: (e.g. LRTAP-low)
+      # placeholder: (e.g. LRTAP-low)
     validations:
       required: true
       
@@ -40,9 +40,9 @@ body:
   - type: input
     id: casename_years
     attributes:
-      label: Casename / years
-      description: CASENAME(s) and years to be CMORized
-      placeholder: (e.g. NSSP245_LRTAP-lowdiet_f19_tn14_Forces_20231031, 2015-2050)
+      label: CASENAME(s) and years to be CMORized
+      # description: CASENAME(s) and years to be CMORized
+      description: (e.g. NSSP245_LRTAP-lowdiet_f19_tn14_Forces_20231031, 2015-2050)
     validations:
       required: true
 
