@@ -121,6 +121,18 @@ body:
   - type: markdown
     attributes:
       value: "- [ ] CMORization of atmosphere / land done"
+      # value: "- [ ] CMORization of ocean / ice done"
+      # value: "- [ ] published to ESGF"
+
+  - type: checkboxes
+    id: cmor_ocean
+    attributes:
+      label: CMORization status
+      description: To be filled by the CMORizxation team
+      options:
+        - label: CMORization of atmosphere / land done
+        - label: CMORization of ocean / ice done
+        - label: published to ESGF
 
 # ####Physics information:
 # Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
