@@ -32,8 +32,8 @@ body:
     id: mopdel_id
     attributes:
       label: model_id
-      # description: model_id
-      placeholder: (e.g. NorESM2-LM)
+      description: (e.g. NorESM2-LM)
+      # placeholder: (e.g. NorESM2-LM)
     validations:
       required: true
       
