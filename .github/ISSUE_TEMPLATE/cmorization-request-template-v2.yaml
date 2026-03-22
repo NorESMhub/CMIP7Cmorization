@@ -13,9 +13,9 @@ body:
   - type: input
     id: nird_path
     attributes:
-      label: Path
-      description: Full path to the case(s) of the experiment on NIRD
-      placeholder: (e.g. /projects/NS2345K/oyvinds/cases)
+      label: Full path to the case(s) of the experiment on NIRD
+      description: (e.g. /projects/NS2345K/oyvinds/cases)
+      # placeholder: 
     validations:
       required: true
       
