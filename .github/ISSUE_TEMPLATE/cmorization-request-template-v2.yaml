@@ -115,7 +115,12 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
       
-
+  - type: markdown
+    attributes:
+      value: "### Progress"
+  - type: markdown
+    attributes:
+      value: "- [] CMORization of atmosphere / land done"
 
 # ####Physics information:
 # Alternative / updated model version based on CMIP6 but updated with parameterisations from projects NFR-KeyClim and H2020-Forces
