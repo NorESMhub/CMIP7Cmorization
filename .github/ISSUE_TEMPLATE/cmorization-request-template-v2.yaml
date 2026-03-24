@@ -1,5 +1,5 @@
 name: CMORization request with fields
-description: CMORization request using partially mandatory fields 
+description: CMORization request template using partially mandatory fields 
 title: "[CMORization request]: "
 labels: ["CMORization request"]
 projects: ["NorESMhub/CMIP7Cmorization"]
