@@ -1,10 +1,10 @@
-name: CMORization request
-description: File a CMORization request.
+name: CMORization request with fields
+description: CMORization request using partially mandatory fields 
 title: "[CMORization request]: "
 labels: ["CMORization request"]
 projects: ["NorESMhub/CMIP7Cmorization"]
-assignees:
-  - jgriesfeller
+# assignees:
+#   - jgriesfeller
 # type: bug (set at the organization level!)
 body:
   - type: markdown
