@@ -1,6 +1,6 @@
 ---
-name: CMORization request template
-about: Template for a CMORization requiest
+name: CMORization request full text
+about: Full text template for a CMORization request (CMIP6 like)
 title: "[CMORization request]"
 labels: CMORization request
 assignees: ''
@@ -52,6 +52,8 @@ assignees: ''
 #### Information on aerosol emissions and GHG concentrations, should be added to metdata
 
 ## Progress
+(each can be made a sub-issue by clicking the right hand side dots after creation of the main issue)
+
 - [ ] CMORization of atmosphere / land done
 - [ ] CMORization of ocean / ice done
 - [ ] published to ESGF
